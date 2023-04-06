@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 import os
-BASE_URL = 'https://m.informations.uz'
+BASE_URL = 'https://web-dilshod.up.railway.app'
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIRS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-@m_htxzllfzqex(z9$=b-ah(i@ootqk=k9bp(7ck+tc4+l+z*j
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = ['https://web-dilshod.up.railway.app']
 
 # Application definition
 
